@@ -35,3 +35,17 @@
   --text: 400 1rem/1.5 var(--font-family);
   --text-sm: 400 9.875/1.4 var(--font-family);
 }
+
+body{
+  font: var(--text);
+  color: var(--text-secondary);
+}
+
+h1, h2{
+  color: var(--text-primary)
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
